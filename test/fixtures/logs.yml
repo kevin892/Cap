@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  score: 1
+  user: one
+  date: MyString
+  course: MyString
+  course_handicap: MyString
+  tees: MyString
+  holes_played: 1
+
+two:
+  score: 1
+  user: two
+  date: MyString
+  course: MyString
+  course_handicap: MyString
+  tees: MyString
+  holes_played: 1
