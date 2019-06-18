@@ -46,6 +46,6 @@ class LogsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def log_params
-      params.require(:log).permit(:score, :user_id, :date, :course, :course_handicap, :tees, :holes_played)
+      params.require(:log).permit(:score, :user_id, :date, :course, :course_handicap, :tees, :holes_played, :slope, :course_rating, :putts, :gir)
     end
 end
