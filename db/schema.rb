@@ -20,9 +20,13 @@ ActiveRecord::Schema.define(version: 2019_06_17_180212) do
     t.bigint "user_id"
     t.string "date"
     t.string "course"
-    t.string "course_handicap"
+    t.integer "course_handicap"
     t.string "tees"
     t.integer "holes_played"
+    t.integer "slope"
+    t.integer "course_rating"
+    t.integer "putts"
+    t.integer "gir"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_logs_on_user_id"
